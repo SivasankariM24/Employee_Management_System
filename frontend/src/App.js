@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Login from './components/Login';
-import Dashboard from './pages/Dashboard';
-import EmployeeDetails from './pages/EmployeeDetails';
-import EmployeeForm from './components/EmployeeForm';
+import Login from './Components/Login';
+import Dashboard from './Pages/Dashboard';
+import EmployeeDetails from './Pages/EmployeeDetails';
+import EmployeeForm from './Components/EmployeeForm';
 
 function App() {
   return (

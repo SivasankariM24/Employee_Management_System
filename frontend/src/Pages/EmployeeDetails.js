@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import API from '../services/api';
 import { useParams, Link } from 'react-router-dom';
-import Navbar from '../components/Navbar';
+import Navbar from '../Components/Navbar';
 
 function EmployeeDetails() {
   const { id } = useParams();

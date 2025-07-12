@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import API from '../services/api';
 import { Link, useNavigate } from 'react-router-dom';
-import Navbar from '../components/Navbar';
+import Navbar from '../Components/Navbar';
 
 function Dashboard() {
   const [employees, setEmployees] = useState([]);
